@@ -1,0 +1,4 @@
+These are standalone project-specific dot files.  They're also
+included in the cookiecutter at ____.
+Best to use them via the cookiecutter, but they're copied here
+as well for convenience.
