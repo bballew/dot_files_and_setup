@@ -1,0 +1,7 @@
+[user]
+	email = bari.ballew@gmail.com
+	name = Bari J. Ballew
+[core]
+	excludesfile = ~/.gitignore
+[init]
+	defaultBranch = main
