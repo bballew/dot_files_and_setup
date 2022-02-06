@@ -7,7 +7,7 @@ syntax on
 set linebreak
 set wrap
 "set showbreak=+++
-set textwidth=150
+"set textwidth=150
 set showmatch
 
 set hlsearch
