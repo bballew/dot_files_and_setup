@@ -1,0 +1,28 @@
+name: dev
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - cookiecutter
+  - flake8
+  - git
+  - git-lfs
+  - isort
+  - mamba
+  - nodejs
+  - pre-commit
+  - snakefmt
+  - snakemake
+# support for C++ linting utilities
+  - cppcheck
+  - sarcasm::clang-format
+# support for R linting utilities
+  - r-devtools
+  - r-docopt
+  - r-lintr
+  - r-styler
+  - r-usethis
+
+
