@@ -2,6 +2,8 @@ au BufNewFile,BufRead Snakefile set syntax=snakemake
 au BufNewFile,BufRead *.snake set syntax=snakemake
 au BufNewFile,BufRead *.smk set syntax=snakemake
 
+filetype indent plugin on
+
 set number
 syntax on
 set linebreak
@@ -16,7 +18,8 @@ set ignorecase
 set incsearch
 
 set autoindent
-set noexpandtab
+"set noexpandtab
+set expandtab
 set shiftwidth=4
 set smartindent
 set smarttab
