@@ -16,13 +16,13 @@ dependencies:
   - snakefmt
   - snakemake
 # support for C++ linting utilities
-  - cppcheck
-  - sarcasm::clang-format
+#  - cppcheck
+#  - sarcasm::clang-format
 # support for R linting utilities
-  - r-devtools
-  - r-docopt
-  - r-lintr
-  - r-styler
-  - r-usethis
+#  - r-devtools
+#  - r-docopt
+#  - r-lintr
+#  - r-styler
+#  - r-usethis
 
 
