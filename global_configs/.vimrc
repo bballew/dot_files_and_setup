@@ -1,6 +1,7 @@
 au BufNewFile,BufRead Snakefile set syntax=snakemake
 au BufNewFile,BufRead *.snake set syntax=snakemake
 au BufNewFile,BufRead *.smk set syntax=snakemake
+au BufNewFile,BufRead *.tsv set syntax=tsv
 
 filetype indent plugin on
 
