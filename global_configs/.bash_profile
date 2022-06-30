@@ -21,4 +21,5 @@ alias ll='ls -lh'
 alias lt='ls -lth'
 alias q='qstat'
 alias s='squeue'
+alias push='git push -u origin `git branch | awk "/\*/ {print \\\$2}"`'
 
