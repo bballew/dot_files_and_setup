@@ -6,3 +6,5 @@ cp -R global_configs/.bash_profile \
       global_configs/.vim/ \
       global_configs/.vimrc \
       $HOME
+
+bash $PWD/utils/get_miniconda.sh
