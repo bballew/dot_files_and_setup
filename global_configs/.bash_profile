@@ -20,6 +20,6 @@ export TZ="America/New_York"
 alias ll='ls -lh'
 alias lt='ls -lth'
 alias q='qstat'
-alias s='squeue'
+alias s='squeue -o"%.18i %.9P %.8j %.8u %.8T %.10M %C %.6D %R"'
 alias push='git push -u origin `git branch | awk "/\*/ {print \\\$2}"`'
 
