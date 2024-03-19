@@ -14,7 +14,7 @@ dependencies:
   - nodejs
   - pre-commit
   - snakefmt
-  - snakemake
+  - snakemake <8
 # support for C++ linting utilities
 #  - cppcheck
 #  - sarcasm::clang-format
